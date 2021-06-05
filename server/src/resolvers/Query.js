@@ -24,6 +24,11 @@ async function feed(parent, args, context, info) {
   };
 }
 
+function info(parent, args, context) {
+  return 'Hi this is a basic info field.';
+}
+
 module.exports = {
-  feed
+  feed,
+  info
 };

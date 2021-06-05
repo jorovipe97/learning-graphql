@@ -1,3 +1,8 @@
+# GraphQL schemas are usually written in the GraphQL Schema Definition
+# Language (SDL). SDL has a type system that allows you to define data
+# structures (just like other strongly typed programming languages such as Java,
+# TypeScript, Swift, Go, etc.).
+
 type Query {
   info: String!
   feed(
